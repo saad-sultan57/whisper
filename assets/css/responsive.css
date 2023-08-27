@@ -1,0 +1,80 @@
+/* For max-1200 Screen */
+@media only screen and (max-width:1199px) {}
+
+/* For max-991 Screen */
+@media only screen and (max-width:991px) {}
+
+/* For max-767 Screen */
+@media only screen and (max-width:767px) {
+    .hotel-name {
+        display: none;
+    }
+
+    .hero-section .mb-logo {
+        display: block;
+    }
+
+    .hero-section .hotel {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .hero-section h2 {
+        font-size: 25.3px;
+        margin-right: 14px !important;
+    }
+
+    .hero-section .choice-sec img {
+        margin-right: 8px;
+    }
+
+    .arrow4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arrow4 {
+        width: 75px !important;
+    }
+
+    .arrow4-area {
+        padding: 20px 0px;
+    }
+
+}
+
+/* For max-567 Screen */
+@media only screen and (max-width:567px) {
+    .hero-section .hotel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-section .choice-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whisperon {
+        padding: 9px 13px;
+    }
+}
+/* For max-505 Screen */
+@media only screen and (max-width:505px) {
+
+    .arrow1 {
+        width: 47px !important;
+    }
+
+    .arrow4 {
+        width: 50px !important;
+    }
+
+    .hero-section .whisper-boxes .sub-box1 h6 {
+        font-size: 15.7px;
+    }
+}

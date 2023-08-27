@@ -1,0 +1,163 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'GlacialIndifference-Regular';
+}
+/* Fonts */
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url(../fonts/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family: 'GlacialIndifference-Regular';
+    src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+@font-face {
+    font-family: 'GlacialIndifference-Bold';
+    src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+/* Color Variables */
+:root{
+    --blue:#3D2B84;
+    --purple:#B64691;
+    --black:#00000;
+}
+/* Hero-Section */
+.hero-section{
+    height: auto;
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-size:cover;
+}
+.hero-section h2{
+    font-size: 31.3px;
+    font-family:'KaushanScript-Regular' ;
+    color: var(--blue);
+}
+.hero-section .choice-sec{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hero-section .choice-sec img{
+    margin-right: 15px;
+}
+.hero-section .hotel{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.hero-section .mb-logo{
+    display: none; 
+    max-width: 160px;
+}
+
+.hero-section h3{
+    text-align: right;
+    font-family: 'GlacialIndifference-Regular';
+    font-size: 18.2px;
+    color: var(--purple);
+}
+.hero-section .whisper-boxes .sub-box{
+    
+    background:#3D2B84;
+    border-radius: 30px;
+}
+.hero-section .whisper-boxes .sub-box1{
+    background: rgba(61, 43, 132, 0.3);
+    padding: 0px 9px 0px 0px;
+}
+.hero-section .whisper-boxes .sub-box2{
+    background: rgba(61, 43, 132, 0.1);
+}
+/*--Bird Box--*/
+.hero-section .bird-box{
+    position: relative;
+}
+.hero-section .bird-box img{
+    position: absolute;
+    top: -40px;;
+}
+.hero-section .whisper-boxes .sub-box1 .arrow-area span{
+    font-size: 18.2px;
+    font-family: 'GlacialIndifference-Regular';
+
+}
+.experience{
+    font-family: 'KaushanScript-Regular';
+    color: var(--purple);
+    font-size: 37px;
+    text-align: center;
+    margin-left: -109px;
+} 
+.hero-section .whisper-boxes .sub-box1 h6{
+    font-size: 24.7px;
+    font-family: 'GlacialIndifference-Regular';
+    text-align: center;
+    padding: -1px 14px;
+}
+.arrow1{
+    width: 75px !important;
+}
+.arrow4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow3{
+   
+        margin-left: -88px;
+  
+}
+
+.hero-section .fa-heart{
+    color: #C2035D;
+    transform: rotate(-17deg);
+}
+
+
+/*--TextArea Box--*/
+.hero-section .whisper-boxes .sub-box2 p{
+    color: #090322;
+    font-size: 19px;
+    font-family: 'GlacialIndifference-Regular';
+    font-weight: 400;
+}
+.hero-section .whisper-boxes .sub-box2 textarea{
+    resize: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    caret-color: black;
+    margin-bottom: 14px;
+
+} 
+.hero-section .whisper-boxes .sub-box2 textarea:focus{
+    border: 1px solid black !important;
+
+    box-shadow: none !important;
+}
+/*Bars Area*/
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+a:hover{
+    color: var(--black);
+}
+.whisperon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(61, 43, 132, 0.3);
+    padding: 5px 13px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.whisperon span{
+    font-size: 15px;
+    margin: 0 auto;
+}
+.send-whisper{
+    background: rgba(182, 70, 145, 0.5)
+}
+
